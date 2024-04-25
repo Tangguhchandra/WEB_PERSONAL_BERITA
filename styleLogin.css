@@ -1,0 +1,68 @@
+body{
+    position: relative;
+}
+
+
+.container{
+    position: absolute;
+
+    left: 70%;
+    top:65%;
+    
+    transform: translate(-50%,-50%);
+    padding: 35px 30px 35px 30px;
+    width: 550px;
+
+    background-color: rgba(255, 255, 255, 0.895);
+    box-shadow: 0 0 20px rgba(0, 4, 255, 0.3);
+    fill:  #1201a5;
+    border-radius: 30px;
+    color: #008AD7;
+    font-size: 20px;
+    
+}
+.container h1{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid hsl(209, 94%, 39%);
+    border-style: none;
+    border-radius: 10px;
+    
+}
+.container label{
+    text-align: left;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: solid;
+    background-color: transparent;
+    border-bottom: 2px solid hsl(231, 84%, 48%);
+    color: #000000;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.container form button{
+    width: 100%;
+    padding: 5px 0;
+    border: solid;
+    background: linear-gradient(90deg, #008AD7 0%, #001689 100%);
+
+    font-size: 23px;
+    font-family:sans-serif;
+    color: #ffffff;
+    border-radius: 10px;
+}
+img{
+    position:unset;
+}
+
